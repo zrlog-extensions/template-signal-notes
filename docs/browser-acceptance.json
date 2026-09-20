@@ -1,0 +1,52 @@
+[
+  {
+    "device": "desktop",
+    "name": "home",
+    "status": 200,
+    "overflow": false,
+    "title": "ZrLog - 简单、易用的 Java 博客系统"
+  },
+  {
+    "device": "desktop",
+    "name": "detail",
+    "status": 200,
+    "overflow": false,
+    "title": "把第一篇文章留给自己的站点 - ZrLog - 简单、易用的 Java 博客系统"
+  },
+  {
+    "device": "desktop",
+    "name": "404",
+    "status": 200,
+    "overflow": false,
+    "title": "未找到 - ZrLog - 简单、易用的 Java 博客系统"
+  },
+  {
+    "device": "desktop",
+    "errors": []
+  },
+  {
+    "device": "mobile",
+    "name": "home",
+    "status": 200,
+    "overflow": false,
+    "title": "ZrLog - 简单、易用的 Java 博客系统"
+  },
+  {
+    "device": "mobile",
+    "name": "detail",
+    "status": 200,
+    "overflow": false,
+    "title": "把第一篇文章留给自己的站点 - ZrLog - 简单、易用的 Java 博客系统"
+  },
+  {
+    "device": "mobile",
+    "name": "404",
+    "status": 200,
+    "overflow": false,
+    "title": "未找到 - ZrLog - 简单、易用的 Java 博客系统"
+  },
+  {
+    "device": "mobile",
+    "errors": []
+  }
+]

@@ -1,0 +1,14 @@
+name: Signal Notes theme
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+permissions:
+  contents: write
+jobs:
+  theme:
+    uses: zrlog-extensions/templates/.github/workflows/theme-release.yml@95ae88c1d12d576a07fba054cd566002b5e66c42
+    with:
+      toolkit-ref: 95ae88c1d12d576a07fba054cd566002b5e66c42
+      publish: ${{ startsWith(github.ref, 'refs/tags/v') }}

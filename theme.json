@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "template-signal-notes",
+  "name": "Signal Notes",
+  "author": "OpenAI",
+  "description": "瀑布流文章列表，支持封面、分类、作者头像和明暗模式。",
+  "repository": "https://github.com/zrlog-extensions/template-signal-notes",
+  "engine": "freemarker",
+  "sourceDirectory": ".",
+  "testedRuntime": "3.9.2",
+  "preview": "https://raw.githubusercontent.com/zrlog-extensions/template-signal-notes/main/images/preview.jpg",
+  "createdDate": "2026-09-21 00:00:00",
+  "tags": ["瀑布流", "响应式", "暗色模式"],
+  "en": {
+    "name": "Signal Notes",
+    "desc": "A masonry blog theme with article covers, categories, author avatars and light/dark modes.",
+    "tags": ["Masonry", "Responsive", "Dark Mode"]
+  },
+  "distribution": {
+    "mode": "shared",
+    "target": "github-release"
+  },
+  "latestRelease": null
+}
