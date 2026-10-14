@@ -25,13 +25,13 @@
         <div class="article-nav">
             <#if log.lastLog?? && log.lastLog.url?has_content>
                 <a class="article-nav__item" href="${log.lastLog.url}">
-                    <span class="article-nav__label">${_res.lastArticle!'Previous post'}</span>
+                    <span class="article-nav__label">${_res.lastArticle!'Previous article'}</span>
                     <strong>${log.lastLog.title}</strong>
                 </a>
             </#if>
             <#if log.nextLog?? && log.nextLog.url?has_content>
                 <a class="article-nav__item article-nav__item--next" href="${log.nextLog.url}">
-                    <span class="article-nav__label">${_res.nextArticle!'Next post'}</span>
+                    <span class="article-nav__label">${_res.nextArticle!'Next article'}</span>
                     <strong>${log.nextLog.title}</strong>
                 </a>
             </#if>

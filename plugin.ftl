@@ -1,7 +1,7 @@
 <section class="discovery shell" aria-labelledby="discovery-title">
     <div class="discovery-grid">
         <section class="discovery-card discovery-card--search">
-            <h2 id="discovery-title">${_res.moreStories!'More stories'}</h2>
+            <h2 id="discovery-title">${_res.moreStories!'More articles'}</h2>
             <p class="discovery-card__desc">${_res.sidebarTitle!'Discover more'}</p>
             <form class="discovery-search" action="${searchUrl}" method="post">
                 <input name="key" type="text" placeholder="${_res.searchTip!'Search articles'}" value="${key!''}"/>

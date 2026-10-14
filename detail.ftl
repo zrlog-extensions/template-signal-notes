@@ -3,7 +3,7 @@
     <#assign articleAuthor = log.userName!(webs.title!'')>
     <article class="article-shell shell">
         <div class="article-head">
-            <a class="article-back" href="${baseUrl}"><span aria-hidden="true">&larr;</span>${_res.backToBlog!'Back to Blog'}</a>
+            <a class="article-back" href="${baseUrl}"><span aria-hidden="true">&larr;</span>${_res.backToBlog!'Back to blog'}</a>
             <time class="article-date" datetime="${log.releaseTime}">${log.releaseTime?split("T")[0]}</time>
             <h1 class="article-head__title">${log.title}</h1>
             <div class="article-authors">

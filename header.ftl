@@ -77,7 +77,7 @@
             <#if _res['githubLink']?has_content>
                 <a class="site-header__deploy" href="${_res['githubLink']}" target="_blank" rel="noopener">Deploy</a>
             </#if>
-            <div class="theme-switcher" role="group" aria-label="${_res.themeSwitcher!'Theme'}">
+            <div class="theme-switcher" role="group" aria-label="${_res.themeSwitcher!'Color mode'}">
                 <button class="theme-switcher__button" type="button" data-theme-choice="light" aria-label="${_res.themeLight!'Light'}" title="${_res.themeLight!'Light'}" aria-pressed="false">
                     <span class="theme-switcher__icon theme-switcher__icon--light" aria-hidden="true"></span>
                 </button>
